@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product | Red Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="Accounts.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="img/cart.png" alt="cart" width="30px" height="30px"></a>
+            <img src="img/menu.png" class="menu-icon" alt="menu bar" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-- Single Products details -->
+
+    <div class="small-container">
+        <div class="row single-product">
+            <div class="col-2">
+                <img src="img/gallery-1.jpg" width="100%" alt="T-shirt" id="productimg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/gallery-1.jpg" width="100%" class="smallimg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/gallery-2.jpg" width="100%" class="smallimg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/gallery-3.jpg" width="100%" class="smallimg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/gallery-4.jpg" width="100%" class="smallimg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / T-Shirt</p>
+                <h1>Red Printed T-Shirt by HRX</h1>
+                <h4>$49.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="cart.html" class="btn">Add To cart</a>
+                <h3>Product Details</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatibus ratione veritatis sapiente! Consequuntur, cumque est. Eligendi ipsam aliquid sunt tempore doloribus ducimus assumenda dolore?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Title  -->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+    <!-- Products  -->
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <img src="img/product-9.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="Ratings">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$49.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-10.jpg" alt="">
+                <h4>Sporty Shoes</h4>
+                <div class="Ratings">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$129.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-11.jpg" alt="">
+                <h4>Jogging Track suit</h4>
+                <div class="Ratings">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>$99.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-12.jpg" alt="">
+                <h4>Polo T-shirt</h4>
+                <div class="Ratings">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$49.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer> -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png" alt="">
+                        <img src="img/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo-white.png" alt="">
+                    <p>Our purpose is to sustainably make the plesure and benefits of sports accessible to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us On</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>You tube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Dead Developers</p>
+        </div>
+    </div>
+
+    <!-- JS for toggle menu -->
+
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px"
+            } else {
+                menuitems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+    <!-- JS for product gelery -->
+
+    <script>
+        let productimg = document.getElementById("productimg");
+        let smallimg = document.getElementsByClassName("smallimg");
+
+        smallimg[0].onclick = function() {
+            productimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            productimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            productimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            productimg.src = smallimg[3].src;
+        }
+    </script>
+</body>
+
+</html>
